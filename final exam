@@ -1,0 +1,11 @@
+from queue import Queue
+q = Queue()
+q.put('Element1')
+popped_element = q.get()
+print(popped_element)
+
+from queue import PriorityQueue
+pq = PriorityQueue()
+pq.put(('Element1'))
+popped_element = pq.get()
+print(popped_element)
